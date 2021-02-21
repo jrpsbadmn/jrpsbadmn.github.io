@@ -250,13 +250,11 @@ a {
 }
 
 .our-brands-section {
-  padding-top: 80px;
+  padding-top: 20px;
 }
 
 .home-section-heading {
-  padding: 25px 59px;
-  background-color: #2c5619;
-  color: #fff;
+  color: #45792e;
   font-size: 40px;
   line-height: 130%;
   font-weight: 700;
@@ -311,7 +309,7 @@ a {
 .our-brands-grid {
   display: -ms-grid;
   display: grid;
-  margin-top: 81px;
+  margin-top: 30px;
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -326,8 +324,6 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 473px;
-  padding: 117px 40px 40px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -341,18 +337,14 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-radius: 22px;
-  background-color: #fff;
-  box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.25);
-}
+  }
 
 .visit-site-btn {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 44px;
-  padding: 13px 27px;
+  padding: 13px 150px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -365,6 +357,7 @@ a {
   color: #fff;
   font-size: 16px;
   line-height: 130%;
+  margin-top: 20px;
 }
 
 .tilt {
@@ -1554,8 +1547,8 @@ a {
   position: absolute;
   left: auto;
   top: auto;
-  right: -20%;
-  bottom: -130%;
+  right: 0%;
+  bottom: -54%;
   z-index: -10;
   width: 600px;
   -o-object-fit: contain;
@@ -2044,7 +2037,6 @@ a {
 
 #w-node-0a6e6eaccd53-24bb2e1a {
   -ms-grid-column-align: end;
-  justify-self: end;
 }
 
 #w-node-9881894b3f89-ce03a3b4 {
