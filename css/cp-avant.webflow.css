@@ -1551,7 +1551,7 @@ a {
   right: auto;
   bottom: 0%;
   z-index: -10;
-  width: 600px;
+  width: 30vw;
   -o-object-fit: contain;
   object-fit: contain;
 }
@@ -1563,7 +1563,7 @@ a {
   right: 0%;
   bottom: -33%;
   z-index: -10;
-  width: 600px;
+  width: 30vw;
   -o-object-fit: contain;
   object-fit: contain;
 }
