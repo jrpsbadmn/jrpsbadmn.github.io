@@ -1559,7 +1559,7 @@ a {
 .home-blob-right {
   position: absolute;
   left: auto;
-  top: auto;
+  top: 76%;
   right: 0%;
   bottom: -33%;
   z-index: -10;
