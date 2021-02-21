@@ -38,6 +38,19 @@ a {
   text-decoration: none !important;
 }
 
+.btn-cp{
+    color: #fff;
+    background-color: #afb934;
+    border-color: #abb345;
+    height: 32px;
+}
+.btn-cp:hover{
+  color: #afb934;
+  background-color: #fff;
+  border-color: #fff;
+  height: 32px;
+}
+
 .body {
   background-color: #f3f3d7;
   font-family: Sen, sans-serif;
@@ -250,7 +263,7 @@ a {
 }
 
 .our-brands-section {
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .home-section-heading {
@@ -1534,7 +1547,7 @@ a {
 .home-blob-left {
   position: absolute;
   left: -20%;
-  top: 120%;
+  top: 53%;
   right: auto;
   bottom: 0%;
   z-index: -10;
@@ -1548,7 +1561,7 @@ a {
   left: auto;
   top: auto;
   right: 0%;
-  bottom: -54%;
+  bottom: -33%;
   z-index: -10;
   width: 600px;
   -o-object-fit: contain;
