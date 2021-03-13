@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Aug 25 2020 16:35:58 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ec4b98ffce92db818a1fed8" data-wf-site="5ec35ef6fefca6460dbb2e19">
 <head>
   <meta charset="utf-8">
@@ -18,6 +16,10 @@
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="body">
   <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
@@ -28,49 +30,67 @@
       </div>
     </div>
   </div>
-  <div class="hero-section">
-    <div data-delay="4000" data-animation="slide" data-autoplay="1" data-duration="500" data-infinite="1" class="hero-slider w-slider">
-      <div></div>
-      <div class="w-slider-mask">
-        <div class="w-slide">
-          <div class="hero-slide cp-slide-1">
-            <div class="container cp-snack-container">
-              <div class="cp-hero-content-container">
-                <h1 class="cp-hero-heading">India&#x27;s 1st</h1>
-                <h1 class="cp-hero-subheading">Completely Antibiotics - Free<br>Chicken Snacks</h1>
-                <h1 class="cp-hero-heading small">Eat Right, Eat CP</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="w-slide">
-          <div class="hero-slide cp-slide-2">
-            <div class="container cp-slide-2">
-              <div class="cp-hero-content-container slide-2">
-                <h1 class="cp-hero-heading slide-2">Eat Right<br>Eat CP</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="w-slide">
-          <div class="hero-slide cp-slide-3">
-            <div>Bon Appetit</div>
-          </div>
-        </div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" style="top:-20px;">
+      <div class="item active">
+        <img src="images/1.png" alt="CP EASY FARM TO EAT" style="width:100%;">
       </div>
-      <div class="hide w-slider-arrow-left">
-        <div class="w-icon-slider-left"></div>
+
+      <div class="item">
+        <img src="images/2.png" alt="CP EASY SNACKS" style="width:100%;">
       </div>
-      <div class="hide w-slider-arrow-right">
-        <div class="w-icon-slider-right"></div>
-      </div>
-      <div class="w-slider-nav w-round"></div><a href="http://cpbrandindia.com/chicken/" target="_blank" class="hero-button w-button">Visit Our Site</a></div>
-  </div>
+    
+      <!--<div class="item">-->
+      <!--  <img src="images/custom.png" alt="New york" style="width:100%;">-->
+      <!--</div>-->
+    </div>
+
+    <div class="w-slider-nav w-round"></div><a href="http://www.fivestarchicken.com/" target="_blank" class="hero-button fs-btn w-button">Visit Our Site</a></div>
+ 
+
+  <!--<div class="hero-section">-->
+  <!--  <div data-delay="4000" data-animation="slide" data-autoplay="1" data-duration="500" data-infinite="1" class="hero-slider w-slider">-->
+  <!--    <div></div>-->
+  <!--    <div class="w-slider-mask">-->
+  <!--      <div class="w-slide">-->
+  <!--        <div class="hero-slide cp-slide-1">-->
+  <!--          <div class="container cp-snack-container">-->
+  <!--            <div class="cp-hero-content-container">-->
+  <!--              <h1 class="cp-hero-heading">India&#x27;s 1st</h1>-->
+  <!--              <h1 class="cp-hero-subheading">Completely Antibiotics - Free<br>Chicken Snacks</h1>-->
+  <!--              <h1 class="cp-hero-heading small">Eat Right, Eat CP</h1>-->
+  <!--            </div>-->
+  <!--          </div>-->
+  <!--        </div>-->
+  <!--      </div>-->
+  <!--      <div class="w-slide">-->
+  <!--        <div class="hero-slide cp-slide-2">-->
+  <!--          <div class="container cp-slide-2">-->
+  <!--            <div class="cp-hero-content-container slide-2">-->
+  <!--              <h1 class="cp-hero-heading slide-2">Eat Right<br>Eat CP</h1>-->
+  <!--            </div>-->
+  <!--          </div>-->
+  <!--        </div>-->
+  <!--      </div>-->
+  <!--      <div class="w-slide">-->
+  <!--        <div class="hero-slide cp-slide-3">-->
+  <!--          <div>Bon Appetit</div>-->
+  <!--        </div>-->
+  <!--      </div>-->
+  <!--    </div>-->
+  <!--    <div class="hide w-slider-arrow-left">-->
+  <!--      <div class="w-icon-slider-left"></div>-->
+  <!--    </div>-->
+  <!--    <div class="hide w-slider-arrow-right">-->
+  <!--      <div class="w-icon-slider-right"></div>-->
+  <!--    </div>-->
+  <!--    <div class="w-slider-nav w-round"></div><a href="http://cpbrandindia.com/chicken/" target="_blank" class="hero-button w-button">Visit Our Site</a></div>-->
+  <!--</div>-->
   <div class="gradient-bg cp-page">
     <div class="container vertical-center w-container"><img src="images/easy-snack-logo.png" alt="" class="cp-snack-logo cp-page">
       <div data-duration-in="300" data-duration-out="100" class="cp-tabs-container w-tabs">
         <div class="tabs-content w-tab-content">
-          <div data-w-tab="Tab 1" class="cp-tab w-tab-pane w--tab-active">
+          <!-- <div data-w-tab="Tab 1" class="cp-tab w-tab-pane w--tab-active">
             <div class="div-block">
               <div id="w-node-36deeea2b51c-18a1fed8" class="cp-tab-content-container">
                 <div class="cp-tab-content-heading">Chicken Fries</div>
@@ -81,7 +101,7 @@
               </div>
               <div class="cp-image-container"><img src="images/chicken-fries.png" alt="" class="cp-tab-heading-image"></div>
             </div>
-          </div>
+          </div> -->
           <div data-w-tab="Tab 2" class="cp-tab w-tab-pane">
             <div class="div-block">
               <div id="w-node-fc790a792f39-18a1fed8" class="cp-tab-content-container">
@@ -115,7 +135,7 @@
                 <p class="cp-tab-para">All meat CP Momos filled with 100% antibiotics-free chicken<br>for a guilt free snacking.</p>
                 <p class="cp-tab-para color">Available in 250g, 300g and also in institutional pack of 1kg</p>
               </div>
-              <div class="cp-image-container"><img src="images/4-chicken-momos.png" alt="" class="cp-tab-heading-image"></div>
+              <div class="cp-image-container"><img src="images/CP Momos-46.png" alt="" class="cp-tab-heading-image"></div>
             </div>
           </div>
           <div data-w-tab="Tab 5" class="cp-tab w-tab-pane">
@@ -139,7 +159,7 @@
                 <p class="cp-tab-para">These cheesy chicken coins with red chili flakes are made with 100% fresh white chicken meat with a crispy tempura coating Seasoned with herbs and spices. Dip it in your favourite sauce and enjoy!</p>
                 <p class="cp-tab-para color">Available in 300g and also in institutional pack of 1kg</p>
               </div>
-              <div class="cp-image-container"><img src="images/6-chicken-coin.png" alt="" class="cp-tab-heading-image"></div>
+              <div class="cp-image-container"><img src="images/CP Chilli Cheese Coins-36.png" alt="" class="cp-tab-heading-image"></div>
             </div>
           </div>
           <div data-w-tab="Tab 7" class="cp-tab w-tab-pane">
@@ -199,17 +219,17 @@
                 <p class="cp-tab-para">Boneless natural chicken marinated with Indian spice dahi (yogurt), skewered and tandoor grilled for an incredible burst of flavours. Serve with mint chutney, a side of onion rings and lemon wedges.</p>
                 <p class="cp-tab-para color">Available in 250g, 400g and also in institutional pack of 1kg</p>
               </div>
-              <div class="cp-image-container"><img src="images/11-chicken-tikka.png" alt="" class="cp-tab-heading-image"></div>
+              <div class="cp-image-container"><img src="images/CP Tikka-51.png" alt="" class="cp-tab-heading-image"></div>
             </div>
           </div>
         </div>
         <div class="tabs-menu w-tab-menu">
-          <a data-w-tab="Tab 1" class="tab--link w-inline-block w-tab-link w--current">
+          <!-- <a data-w-tab="Tab 1" class="tab--link w-inline-block w-tab-link w--current">
             <div class="tab-inside-container"><img src="images/chicken-fries.png" alt="" class="cp-tab-small-image">
               <div class="product-name">Available in 250g, 500g</div>
               <div class="product-size">Institutional Pack of 1 kg</div>
             </div>
-          </a>
+          </a> -->
           <a data-w-tab="Tab 2" class="tab--link w-inline-block w-tab-link">
             <div class="tab-inside-container"><img src="images/chicken-popcorn.png" alt="" class="cp-tab-small-image">
               <div class="product-name">Available in 250g, 400g</div>
@@ -223,7 +243,7 @@
             </div>
           </a>
           <a data-w-tab="Tab 4" class="tab--link w-inline-block w-tab-link">
-            <div class="tab-inside-container"><img src="images/4-chicken-momos.png" alt="" class="cp-tab-small-image">
+            <div class="tab-inside-container"><img src="images/CP Momos-46.png" alt="" class="cp-tab-small-image">
               <div class="product-name">Available in 250g, 300g</div>
               <div class="product-size">Institutional Pack of 1 kg</div>
             </div>
@@ -235,7 +255,7 @@
             </div>
           </a>
           <a data-w-tab="Tab 6" class="tab--link w-inline-block w-tab-link">
-            <div class="tab-inside-container"><img src="images/6-chicken-coin.png" alt="" class="cp-tab-small-image">
+            <div class="tab-inside-container"><img src="images/CP Chilli Cheese Coins-36.png" alt="" class="cp-tab-small-image">
               <div class="product-name">Available in 300g</div>
               <div class="product-size">Institutional Pack of 1 kg</div>
             </div>
@@ -265,7 +285,7 @@
             </div>
           </a>
           <a data-w-tab="Tab 11" class="tab--link w-inline-block w-tab-link">
-            <div class="tab-inside-container"><img src="images/11-chicken-tikka.png" alt="" class="cp-tab-small-image">
+            <div class="tab-inside-container"><img src="images/CP Tikka-51.png" alt="" class="cp-tab-small-image">
               <div class="product-name">Available in 250g</div>
               <div class="product-size">Institutional Pack of 1 kg</div>
             </div>
@@ -276,7 +296,28 @@
     <div class="inside-footer cp-page">
       <div class="container w-container">
         <div class="footer-heading">Social Media</div>
-        <div class="footer-social-container"><a href="https://www.instagram.com/CPEASYSNACKSINDIA/" target="_blank" class="footer-social-link w-inline-block"><img src="images/insta-logo.svg" alt=""></a><a href="https://www.facebook.com/CP-EASY-Snacks-101392411650470/" target="_blank" class="footer-social-link w-inline-block"><img src="images/fb-logo.svg" alt=""></a></div>
+        <div class="footer-social-container">
+            <a href="https://www.facebook.com/cpsnacksindia/" class="fa fa-facebook"></a>
+<!--<a href="#" class="fa fa-twitter"></a>-->
+<!--<a href="#" class="fa fa-google"></a>-->
+<!--<a href="#" class="fa fa-linkedin"></a>-->
+<!--<a href="#" class="fa fa-youtube"></a>-->
+<a href="https://www.instagram.com/cpeasysnacksindia/" class="fa fa-instagram"></a>
+<!--<a href="#" class="fa fa-pinterest"></a>-->
+<!--<a href="#" class="fa fa-snapchat-ghost"></a>-->
+<!--<a href="#" class="fa fa-skype"></a>-->
+<!--<a href="#" class="fa fa-android"></a>-->
+<!--<a href="#" class="fa fa-dribbble"></a>-->
+<!--<a href="#" class="fa fa-vimeo"></a>-->
+<!--<a href="#" class="fa fa-tumblr"></a>-->
+<!--<a href="#" class="fa fa-vine"></a>-->
+<!--<a href="#" class="fa fa-foursquare"></a>-->
+<!--<a href="#" class="fa fa-stumbleupon"></a>-->
+<!--<a href="#" class="fa fa-flickr"></a>-->
+<!--<a href="#" class="fa fa-yahoo"></a>-->
+<!--<a href="#" class="fa fa-reddit"></a>-->
+<!--<a href="#" class="fa fa-rss"></a>-->
+        </div>
       </div>
     </div>
   </div>
