@@ -259,12 +259,23 @@
     }
   }
 }
+.image-block {
+    
+    overflow: visible; 
+    
+}
+.image-block img {
+    transition: transform .6s ease;
+ }
+.image-block:hover img {
+    transform: scale(1.2);
+}
 </style>
 </head>
 <body class="body">
   <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
     <div class="container nav-container w-container"><a href="index.html" aria-current="page" class="brand w-nav-brand w--current"><img src="images/cp-avant-logo.png" alt=""></a>
-      <nav role="navigation" class="nav-menu w-nav-menu"><a href="index.html" aria-current="page" class="nav-link w-nav-link w--current">Home</a><a href="about-us.html" class="nav-link w-nav-link">About Us</a><a href="https://www.cpavant.com/#our-brands" class="nav-link w-nav-link">Our Brands</a><a href="https://cpavant.com/#contact" class="nav-link w-nav-link">Contact Us</a></nav>
+      <nav role="navigation" class="nav-menu w-nav-menu"><a href="index.html" aria-current="page" class="nav-link w-nav-link w--current">Home</a><a href="about-us.html" class="nav-link w-nav-link">About Us</a><a href="https://www.cpavant.com/#our-brands" class="nav-link w-nav-link">Our Brands</a><a href="https://cpavant.com/#contact" class="nav-link w-nav-link">Contact Us</a><a href="news.html" class="nav-link w-nav-link">Media & CSR</a></nav>
       <div class="menu-button w-nav-button">
         <div class="w-icon-nav-menu"></div>
       </div>
@@ -283,7 +294,7 @@
 <div style="margin-top: 40px;">
   <div class="widget col-lg-3">
     <div class="panel-body text-center">
-      <div class="text-lg m0" style="height: 250px !important;">
+      <div class="text-lg m0 image-block" style="height: 250px !important;">
         <img src="images/five-start-logo.png" alt="" style="height: 190px;">
       </div>
       <div class="mb-lg"></div><a href="five-star.html" class="btn btn-cp">
@@ -293,7 +304,7 @@
   </div>
   <div class="widget col-lg-3">
     <div class="panel-body  text-center">
-      <div class="text-lg m0" style="height: 250px !important;">
+      <div class="text-lg m0 image-block" style="height: 250px !important;">
         <img src="images/easy-snack-logo.png" alt="" style="height: 190px;">
       </div>
       <div class="mb-lg"></div><a href="cp-easy-snacks.html" class="btn btn-cp">
@@ -304,7 +315,7 @@
 
   <div class="widget col-lg-3">
     <div class="panel-body  text-center">
-      <div class="text-lg m0" style="height: 250px !important;">
+      <div class="text-lg m0 image-block" style="height: 250px !important;">
         <img src="images/krua-thai-logo.png" alt="" style="height: 190px;">
       </div>
       <div class="mb-lg"></div><a href="krua-thai.html" class="btn btn-cp">
@@ -315,7 +326,7 @@
 
   <div class="widget col-lg-3">
     <div class="panel-body  text-center">
-      <div class="text-lg m0" style="height: 250px !important;">
+      <div class="text-lg m0 image-block" style="height: 250px !important;">
         <img src="images/snackjack.png" alt="" style="height: 190px;">
       </div>
       <div class="mb-lg"></div><a href="snack-jack.html" class="btn btn-cp">
