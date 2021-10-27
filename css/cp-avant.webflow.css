@@ -221,8 +221,8 @@ a {
 }
 
 .hero-section.home {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), color-stop(77%, hsla(0, 0%, 100%, 0))), url('../back.JPG');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.75), hsla(0, 0%, 100%, 0) 77%), url('../back.JPG');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), color-stop(77%, hsla(0, 0%, 100%, 0))), url('../back.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.75), hsla(0, 0%, 100%, 0) 77%), url('../back.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
